@@ -18,7 +18,12 @@ url: "http://clojure.kr" # the base hostname & protocol for your site
 github_username:  clojure-korea
 
 # Build settings
-markdown: kramdown
+# markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: /:year/:month/:title
 
 authors:
   matt:
