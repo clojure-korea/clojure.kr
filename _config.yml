@@ -24,12 +24,3 @@ kramdown:
   syntax_highlighter: rouge
 
 permalink: /:year/:month/:title
-
-authors:
-  matt:
-    display_name: Matt Hackett
-    gravatar: 60fd5218fff6927c0ed376cce01c5460
-    email: matt@lostdecadegames.com
-    web: http://www.richtaur.com/
-    twitter: richtaur
-    github: richtaur
