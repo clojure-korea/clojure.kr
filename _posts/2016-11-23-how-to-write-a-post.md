@@ -1,6 +1,6 @@
 ---
 layout: post
-title: how to write a post
+title: 블로그에 포스팅 하는법
 date:   2016-11-22 15:09:10 +0900
 author: minsun
 ---
@@ -26,26 +26,32 @@ $ bundle exec jekyll post "My New Post"
 위의 gem으로 파일을 생성하면, 다음과 같은 기본 레이아웃으로 마크다운이 생성된다.
 
 ```
+---
 layout: post
 title: how to write a post
+---
 ```
 
 date와 author를 추가합니다.
 
 ```
+---
 layout: post
 title: how to write a
 date: 2016-11-22 15:09:10 +0900
 author: minsun
+---
 ```
 
 title은 바꿔도 좋습니다.
 
 ```
+---
 layout: post
 title: 포스팅 하는 법
 date: 2016-11-22 15:09:10 +0900
 author: minsun
+---
 ```
 
 깃헙 마크다운을 따릅니다, 변경사항이 필요하면 요청해주세요.
