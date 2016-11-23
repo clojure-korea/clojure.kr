@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+![clojure-logo](https://cloud.githubusercontent.com/assets/562341/20516052/e2b96678-b0d7-11e6-8d56-c6c4142a4b8b.png){:height="80px" width="80px"}
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+- [clojure-korea 페이스북 그룹](https://www.facebook.com/groups/defnclojure/)
+- [ClojureKoreaBridge 페이스북 그룹](https://www.facebook.com/groups/clojurebridgekr/)
+- [Slack-#clojure-korea](https://clojurians.slack.com/messages/clojure-korea/)

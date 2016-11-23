@@ -6,16 +6,25 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: (clojure korea)
+email: clojure.kr at gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  클로저 코리아에서 운영하는 블로그 입니다.</br>
+  FB : www.facebook.com/groups/defnclojure
+
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://clojure.kr" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  clojure-korea
 
 # Build settings
 markdown: kramdown
+
+authors:
+  matt:
+    display_name: Matt Hackett
+    gravatar: 60fd5218fff6927c0ed376cce01c5460
+    email: matt@lostdecadegames.com
+    web: http://www.richtaur.com/
+    twitter: richtaur
+    github: richtaur
