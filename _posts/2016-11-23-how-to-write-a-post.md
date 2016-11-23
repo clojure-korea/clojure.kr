@@ -1,8 +1,8 @@
 ---
 layout: post
 title: 블로그에 포스팅 하는법
-date:   2016-11-22 15:09:10 +0900
-author: minsun
+date: 2016-11-22 15:09:10 +0900
+author: Minsun Lee
 ---
 
 ## 마크다운 파일 생성하기
