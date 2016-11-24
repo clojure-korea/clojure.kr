@@ -66,21 +66,21 @@ author: yd.thx
 ### 프로젝트 추가
 + 화면 상단에 툴바가 보입니다.
 
-![init]({{site.url}}/assets/atom01.png)
+![init]({{site.baseurl}}/assets/atom01.png)
 
 ### 단축메뉴
 
-![menu]({{site.url}}/assets/atom02.png)
-![menu]({{site.url}}/assets/atom03.png)
+![menu]({{site.baseurl}}/assets/atom02.png)
+![menu]({{site.baseurl}}/assets/atom03.png)
 
 ### 'Start REPL from ...' 실행
 
-![repl]({{site.url}}/assets/atom04.png)
+![repl]({{site.baseurl}}/assets/atom04.png)
 
 ### 'Execute Block' 실행
 + REPL에 코드를 보내서 실행하고 편집 화면에서도 결과가 표시됩니다.
 
-![exec]({{site.url}}/assets/atom05.png)
+![exec]({{site.baseurl}}/assets/atom05.png)
 
 
 
