@@ -1,7 +1,7 @@
 ---
 layout: post
-title:
-date: 2015-02-09 15:09:10 +0900
+title: Leiningen에 Repository 추가하기
+date: 2015-03-24 00:00:20 +0900
 author: Eunmin Kim
 ---
 

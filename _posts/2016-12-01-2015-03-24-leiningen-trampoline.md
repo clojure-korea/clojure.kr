@@ -1,7 +1,7 @@
 ---
 layout: post
-title:
-date: 2015-02-09 15:09:10 +0900
+title: Leiningen Trampoline
+date: 2015-03-24 00:00:50 +0900
 author: Eunmin Kim
 ---
 

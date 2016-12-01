@@ -1,7 +1,7 @@
 ---
 layout: post
-title:
-date: 2015-02-09 15:09:10 +0900
+title: Pedestal 개발 환경에서 실행 중일 때 Auto Reload 활성화 하기
+date: 2015-03-24 00:00:02 +0900
 author: Eunmin Kim
 ---
 

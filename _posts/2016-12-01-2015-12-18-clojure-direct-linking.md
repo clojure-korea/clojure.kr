@@ -1,7 +1,7 @@
 ---
 layout: post
-title:
-date: 2015-02-09 15:09:10 +0900
+title: Clojure 1.8.0에 추가되는 Direct Linking
+date: 2015-12-18 15:09:10 +0900
 author: Eunmin Kim
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
-title:
-date: 2015-02-09 15:09:10 +0900
+title: Re-frame 시작하기 (1)
+date: 2015-11-08 15:09:10 +0900
 author: Eunmin Kim
 ---
 
