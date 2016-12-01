@@ -24,3 +24,5 @@ kramdown:
   syntax_highlighter: rouge
 
 permalink: /:title
+
+disqus: clojure-kr
