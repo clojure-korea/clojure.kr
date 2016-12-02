@@ -1,38 +1,34 @@
 # User Settings | Edit there as per required
 
-title: accent
-url: "http://ankitsultana.me"
-baseurl: "/accent"
+title: clojure-korea
+url: "http://clojure.kr/"
+baseurl: ""
 
 # This will show up at the top of index page
 site_heading: >
-    foo <span class="faded">'s blog</span>
+    clojure <span class="faded">korea</span>
 
-email: your@email.com
-author: yourname
+email: clojure.kr@gmail.com
+author: clojure-korea
 # This description will show up in google search results
 # (for index page) etc.
-description: >
-    accent is, as Trump would put it, the best
+description: > # this means to ignore newlines until "baseurl:"
+  클로저 코리아에서 운영하는 블로그 입니다.</br>
 
 # This will what will show against &copy; in the footer
-copyright: accent
+copyright: clojure-korea
 # Toggle your short bio, which will displayed on your index page
 # Just toggle it and run jekyll again to see
 intro: false         # Tip: Remove the span from site_heading if intro is set to true
 # This will be displayed in your intro
 short_bio: >
-    Welcome! This is <span>accent</span>, a mobile friendly theme for Jekyll. The main feature of this
-    theme is that you can change the accent color. Refer the
-    <a class="underline different-highlight" href="http://ankitsultana.me/accent/documentation.html">
-        Documentation
-    </a>
-    to know how.
+    반갑습니다.
 
-permalink: /:title.html
+permalink: /:title
 
 # Comments are powered by disqus
 comments: true
+disqus: clojure-kr
 
 # keep about_stub roughly 12 words long for best results
 # This will show up at the bottom of each post
@@ -43,9 +39,9 @@ about_stub: >
 
 about_footer: true
 
-twitter_username: AnkitSultana
-github_username: yourgithub
-facebook_id: yourusername
+#twitter_username: dalzony
+github_username: clojure-korea
+facebook_id: groups/defnclojure
 
 favicon: true
 favicon_location: "images/favicon.ico"
@@ -57,7 +53,7 @@ tracking_id: UA-69243698-7 # GA Tracking ID
 
 # Social Stuff | open graph and twitter cards
 og_image: "images/accent.png" # This will show in facebook thumbnails
-twitter_image: "http://ankitsultana.me/images/accent.png?1234" # This will show in twitter cards
+twitter_image: "" # This will show in twitter cards
 
 ####################################
 ####################################
