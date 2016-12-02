@@ -1,28 +1,90 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# User Settings | Edit there as per required
 
-# Site settings
-title: (clojure korea)
-email: clojure.kr at gmail.com
+title: clojure-korea
+url: "http://clojure.kr/"
+baseurl: ""
+
+# This will show up at the top of index page
+site_heading: >
+    clojure <span class="faded">korea</span>
+
+email: clojure.kr@gmail.com
+author: clojure-korea
+# This description will show up in google search results
+# (for index page) etc.
 description: > # this means to ignore newlines until "baseurl:"
   클로저 코리아에서 운영하는 블로그 입니다.</br>
-  FB : www.facebook.com/groups/defnclojure
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://clojure.kr" # the base hostname & protocol for your site
-#twitter_username: jekyllrb
-github_username:  clojure-korea
-
-# Build settings
-# markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+# This will what will show against &copy; in the footer
+copyright: clojure-korea
+# Toggle your short bio, which will displayed on your index page
+# Just toggle it and run jekyll again to see
+intro: false         # Tip: Remove the span from site_heading if intro is set to true
+# This will be displayed in your intro
+short_bio: >
+    반갑습니다.
 
 permalink: /:title
 
+# Comments are powered by disqus
+comments: true
 disqus: clojure-kr
+
+# keep about_stub roughly 12 words long for best results
+# This will show up at the bottom of each post
+# Note that about_footer should be true if you want
+# to see author information at the bottom of each post
+about_stub: >
+    Keep this sentence less than 13 words or it won't look good.
+
+about_footer: true
+
+#twitter_username: dalzony
+github_username: clojure-korea
+facebook_id: groups/defnclojure
+
+favicon: true
+favicon_location: "images/favicon.ico"
+
+profile_picture: images/temp.png
+paginate: 5
+paginate_path: "/page/:num"
+tracking_id: UA-69243698-7 # GA Tracking ID
+
+# Social Stuff | open graph and twitter cards
+og_image: "images/accent.png" # This will show in facebook thumbnails
+twitter_image: "" # This will show in twitter cards
+
+####################################
+####################################
+####################################
+### Build Settings | Don't Touch ###
+####################################
+####################################
+####################################
+
+markdown: kramdown
+
+gems:
+    - jekyll-paginate
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+# Scopes
+defaults:
+    -
+        scope:
+            path:   ""
+            type:   "pages"
+        values:
+            layout: "page"
+    -
+        scope:
+            path:   ""
+            type:   "posts"
+        values:
+            layout: "post"
+
+exclude: [vendor] # For travis ci
