@@ -1,7 +1,7 @@
 # User Settings | Edit there as per required
 
 title: clojure-korea
-url: "http://clojure.kr/"
+url: "http://clojure.kr"
 baseurl: ""
 
 # This will show up at the top of index page
@@ -35,7 +35,7 @@ disqus: clojure-kr
 # Note that about_footer should be true if you want
 # to see author information at the bottom of each post
 about_stub: >
-    Keep this sentence less than 13 words or it won't look good.
+    <a href="https://www.facebook.com/groups/defnclojure/">페이스북 그룹: defnclojure</a>
 
 about_footer: true
 
@@ -54,6 +54,20 @@ tracking_id: UA-69243698-7 # GA Tracking ID
 # Social Stuff | open graph and twitter cards
 og_image: "images/accent.png" # This will show in facebook thumbnails
 twitter_image: "" # This will show in twitter cards
+
+###################################
+
+authors:
+  yd.thx:
+    name: Hanzou Hattori
+    display_name: Hanzou
+    gravatar: c66919cb194f96c696c1da0c47354a6a
+    email: hanzou@company.com
+    web: http://company.com
+    twitter: company
+    github: hhattori
+###################################
+
 
 ####################################
 ####################################

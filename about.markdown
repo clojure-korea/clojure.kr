@@ -1,15 +1,15 @@
 ---
 layout: about
-title: accent
+title: about
 author: Ankit Sultana
 permalink: /about
 ---
 
-Hi! My name is yourname!
+안녕하세요. 클로저코리아 블로그 입니다.
 
-> One shalt not speak shakespearean, or brocolli McDonalds
-
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+<img src="https://cloud.githubusercontent.com/assets/562341/20516052/e2b96678-b0d7-11e6-8d56-c6c4142a4b8b.png" alt="Drawing" style="width: 100px;"/>
 
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[clojure-korea 페이스북 그룹](https://www.facebook.com/groups/defnclojure/)  
+[ClojureKoreaBridge 페이스북 그룹](https://www.facebook.com/groups/clojurebridgekr/)  
+[Slack-#clojure-korea](https://clojurians.slack.com/messages/clojure-korea/)  
