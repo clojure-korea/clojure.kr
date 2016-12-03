@@ -1,10 +1,10 @@
 // Font stacks
-$font-stack-one: 'ubuntu';
-$font-stack-three: 'Montserrat';
-$code-font: 'Menlo', 'Roboto Mono', 'Roboto';
+$font-stack-one: 'apple SD gothic neo', '돋움', 'dotum', 'sans-serif';
+$font-stack-three: 'apple SD gothic neo', '돋움', 'dotum', 'sans-serif';
+$code-font: 'Monaco';
 
 // Spacing and Sizes
-$base-font-size: 1.2em;
+$base-font-size: 1em;
 $base-line-height: 1.5;
 $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
