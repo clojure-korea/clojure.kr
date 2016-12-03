@@ -46,13 +46,13 @@ facebook_id: groups/defnclojure
 favicon: true
 favicon_location: "images/favicon.ico"
 
-profile_picture: images/temp.png
+profile_picture: images/clojure-logo.png
 paginate: 5
 paginate_path: "/page/:num"
 tracking_id: UA-69243698-7 # GA Tracking ID
 
 # Social Stuff | open graph and twitter cards
-og_image: "images/accent.png" # This will show in facebook thumbnails
+og_image: "images/clojurekr.png" # This will show in facebook thumbnails
 twitter_image: "" # This will show in twitter cards
 
 ###################################
