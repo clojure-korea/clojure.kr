@@ -4,12 +4,18 @@
 }
 
 pre code {
-  border-radius: 10px;
   font-family:  $code-font;
+  font-size: 1em;
   padding: $base-spacing $base-spacing/10;
   @media(max-width: $break-small) {
       font-size: 10px;
   }
 }
 
-.highlight pre code { display: block; white-space: pre; overflow-x: auto; word-wrap: normal; }
+code {
+  font-family:  $code-font;
+  font-size: 0.8em;
+  background-color: #f3f3f3;
+  padding-left: 3px;
+  padding-right: 3px;
+}
