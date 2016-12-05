@@ -2,7 +2,7 @@
 layout: post
 title: Leiningen에 Repository 추가하기
 date: 2015-03-24 00:00:20 +0900
-author: Eunmin Kim
+author: eunmin
 ---
 
 별도의 Repository를 사용하려면 `project.clj`에 `:repositories`키로 다음과 같이 Repository를 추가할 수 있다.

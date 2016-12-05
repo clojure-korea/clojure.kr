@@ -2,7 +2,7 @@
 layout: post
 title: Selmer에서 동적으로 extends 하기
 date: 2015-01-23 15:09:10 +0900
-author: Eunmin Kim
+author: eunmin
 ---
 
 Selmer는 extends 태그로 템플릿 레이아웃을 지정할 수 있습니다. extends의 사용 예를 볼까요?

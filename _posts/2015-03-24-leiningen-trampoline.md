@@ -2,7 +2,7 @@
 layout: post
 title: Leiningen Trampoline
 date: 2015-03-24 00:00:50 +0900
-author: Eunmin Kim
+author: eunmin
 ---
 
 `lein run` 등으로 뭔가 동작시키면 `lein` 쉘 프로세스와 `leiningen.core.main` java 프로세스와 실제 어플리케이션 프로세스가 생성 된다.

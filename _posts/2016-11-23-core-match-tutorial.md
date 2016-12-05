@@ -2,7 +2,7 @@
 layout: post
 title: core.match 빠르게 살펴보기
 date:   2016-11-23 17:00:00 +0900
-author: Eunmin Kim
+author: eunmin
 ---
 
 ## core.match는 뭔가요?

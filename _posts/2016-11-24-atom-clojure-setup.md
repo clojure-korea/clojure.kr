@@ -2,7 +2,7 @@
 layout: post
 title: Atom으로 Clojure 개발하기
 date: 2016-11-24 19:00:00 +0900
-author: yd.thx
+author: kwakbab
 ---
 
 > 참고자료: [Atom Clojure Setup](https://gist.github.com/jasongilman/d1f70507bed021b48625)  
@@ -45,7 +45,7 @@ author: yd.thx
 + Show Inline Results: `✔︎`
 + Use Clojure Syntax: `✔︎`
 
- 
+
 ### [lisp-paredit](https://gist.github.com/jasongilman/d1f70507bed021b48625#lisp-paredit)
 + Enabled: `✔︎`
 + Strict: `✗`
@@ -55,8 +55,8 @@ author: yd.thx
 ## Atom 세팅
 + Auto Indent On Paste: `✗`
 + Scroll Past End: `✔︎`
-+ (macOS) ~/.atom/ 적용 
-    + init.coffee [download](https://gist.githubusercontent.com/jasongilman/d1f70507bed021b48625/raw/08feba06ce68faccfd44e4b7ee683e09879bd2f8/init.coffee) 
++ (macOS) ~/.atom/ 적용
+    + init.coffee [download](https://gist.githubusercontent.com/jasongilman/d1f70507bed021b48625/raw/08feba06ce68faccfd44e4b7ee683e09879bd2f8/init.coffee)
     + keymap.cson [download](https://gist.githubusercontent.com/jasongilman/d1f70507bed021b48625/raw/08feba06ce68faccfd44e4b7ee683e09879bd2f8/keymap.cson)
 
 ## demo
@@ -81,10 +81,3 @@ author: yd.thx
 + REPL에 코드를 보내서 실행하고 편집 화면에서도 결과가 표시됩니다.
 
 ![exec]({{site.baseurl}}/assets/atom05.png)
-
-
-
-
-
-
-

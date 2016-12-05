@@ -2,7 +2,7 @@
 layout: post
 title: Clojure 1.8.0에 추가되는 Direct Linking
 date: 2015-12-18 15:09:10 +0900
-author: Eunmin Kim
+author: eunmin
 ---
 
 클로저 1.8.0에 Direct Linking이라는 방식이 추가된다고 합니다. (https://github.com/clojure/clojure/blob/master/changes.md)

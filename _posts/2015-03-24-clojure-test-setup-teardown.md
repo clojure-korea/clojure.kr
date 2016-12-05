@@ -2,7 +2,7 @@
 layout: post
 title: Clojure test에서 setup/teardown
 date: 2015-03-24 00:00:03 +0900
-author: Eunmin Kim
+author: eunmin
 ---
 
 Clojure test에서 setup과 teardown은 clojure.test에 있는 use-fixtures를 사용하면 된다. use-fixtures는 아래와 같이 사용한다.

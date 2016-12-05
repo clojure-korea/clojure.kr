@@ -2,7 +2,7 @@
 layout: post
 title: Pedestal 개발 환경에서 실행 중일 때 Auto Reload 활성화 하기
 date: 2015-03-24 00:00:02 +0900
-author: Eunmin Kim
+author: eunmin
 ---
 
 Pedestal을 개발 환경으로 실행할 때 `lein run-dev`와 같이 실행한다.

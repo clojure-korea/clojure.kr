@@ -2,7 +2,7 @@
 layout: post
 title: Pedestal Interceptor
 date: 2016-01-09 00:00:01 +0900
-author: Eunmin Kim
+author: eunmin
 ---
 
 Pedestal은 요청과 응답을 순서대로 처리할 수 있는 interceptor라는 기능을 제공합니다. Interceptor는 전체 요청에 적용하거나 특정한 라우팅에 적용할 수 있습니다. Inteceptor는 요청이 들어올 때 처리되는 `:enter` 스테이지, 응답이 나갈 때 처리되는 `:leave` 스테이지, 에러가 발생한 경우 처리되는 `:error` 스테이지가 있습니다. 처리하고 싶은 스테이지만 구현해주면 되고 처리하지 않을 스테이지는 없어도 됩니다. 아래는 간단한 interceptor의 예입니다.
