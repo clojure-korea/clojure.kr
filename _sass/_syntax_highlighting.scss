@@ -5,16 +5,10 @@
 
 pre code {
   font-family:  $code-font;
-  font-size: 1em;
-  padding: $base-spacing $base-spacing/10;
-  @media(max-width: $break-small) {
-      font-size: 10px;
-  }
 }
 
 code {
   font-family:  $code-font;
-  font-size: 0.8em;
   background-color: #f3f3f3;
   padding-left: 3px;
   padding-right: 3px;
