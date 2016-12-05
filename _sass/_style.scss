@@ -92,15 +92,6 @@ a:hover {
     text-decoration: none;
     color: $accent-color;
 }
-.underline {
-    border-bottom: 2px solid $underline-color;
-}
-.underline:hover {
-    color: inherit;
-    -webkit-transition: 0.4s ease;
-    -moz-transition: 0.4s ease;
-    border-bottom: 2px solid $accent-color;
-}
 .button {
     font-weight: lighter;
     font-size: 13px;
