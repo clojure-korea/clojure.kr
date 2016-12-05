@@ -2,7 +2,7 @@
 layout: post
 title: Clojure with-open 매크로
 date: 2015-03-24 00:00:10 +0900
-author: Eunmin Kim
+author: eunmin
 ---
 
 Clojure에는 Java의 open-close 형태의 클래스를 편리하게 사용할 수 있는 `with-open` 매크로를 제공한다. `with-open`은 Java의 아래와 같은 패턴을 매크로로 제공한다.

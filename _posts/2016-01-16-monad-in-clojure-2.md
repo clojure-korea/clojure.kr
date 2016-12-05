@@ -2,7 +2,7 @@
 layout: post
 title: monad in clojure 2
 date: 2016-01-16 15:09:10 +0900
-author: Eunmin Kim
+author: eunmin
 ---
 
 이 글은 monad in clojure(https://github.com/khinsen/monads-in-clojure) 문서를 보고 정리 한 내용입니다.

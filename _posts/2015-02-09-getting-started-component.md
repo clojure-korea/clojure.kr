@@ -2,7 +2,7 @@
 layout: post
 title: 컴포넌트 빠르게 살펴보기
 date: 2015-02-09 15:09:10 +0900
-author: Eunmin Kim
+author: eunmin
 ---
 
 ## 컴포넌트

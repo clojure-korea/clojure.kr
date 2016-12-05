@@ -2,7 +2,7 @@
 layout: post
 title: Re-frame 시작하기 (1)
 date: 2015-11-08 15:09:10 +0900
-author: Eunmin Kim
+author: eunmin
 ---
 
 https://github.com/Day8/re-frame

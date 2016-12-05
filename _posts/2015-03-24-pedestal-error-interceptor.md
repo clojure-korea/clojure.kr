@@ -2,7 +2,7 @@
 layout: post
 title: 간단한 Pedestal interceptor 만들기
 date: 2015-03-24 00:00:01 +0900
-author: Eunmin Kim
+author: eunmin
 ---
 
 Pedestal interceptor는 Ring middleware와 비슷한 일을 하는 기능이다.

@@ -2,7 +2,7 @@
 layout: post
 title: Clojure Reload에 대해서 2
 date: 2015-12-12 15:09:10 +0900
-author: Eunmin Kim
+author: eunmin
 ---
 
 "Clojure Reload에 대해서"에 이어 두번째로 `:reload`에 대한 내용을 적어본다. 클로저 리로드에 대해서 익숙하지 않다면 먼저 작성한 "Clojure Reload에 대해서"를 보면 이 글을 이해하기 쉬울 것이다.
