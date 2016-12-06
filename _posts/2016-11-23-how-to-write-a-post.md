@@ -5,6 +5,10 @@ date: 2016-11-22 15:09:10 +0900
 author: dalzony
 ---
 
+## github
+
+- https://github.com/clojure-korea/clojure.kr fork!
+
 ## 마크다운 파일 생성하기
 
 - post를 하려면 반드시 다은과 같은 네이밍 규칙을 지켜야한다.
