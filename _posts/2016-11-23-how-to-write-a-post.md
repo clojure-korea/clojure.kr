@@ -16,16 +16,6 @@ author: dalzony
   - 예:  `_posts/2016-11-23-how-to-write-a-post.md`
 - 파일 명은 반드시 영어로 한다.
 
-### [tip] jekyll-compose를 이용하기
-
-- `gem install jekyll-compose`
-- 다음 명령어로 `_posts/2016-11-23-my-new-post.md ` 가 생성됨
-```
-$ bundle exec jekyll post "My New Post"
-```
-
-- https://github.com/jekyll/jekyll-compose 에 기타 사용법이 있다. (ex: draft생성)
-
 ## 마크다운 작성시에
 
 위의 gem으로 파일을 생성하면, 다음과 같은 기본 레이아웃으로 마크다운이 생성된다.
