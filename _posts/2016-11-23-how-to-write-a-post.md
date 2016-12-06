@@ -16,9 +16,9 @@ author: dalzony
   - 예:  `_posts/2016-11-23-how-to-write-a-post.md`
 - 파일 명은 반드시 영어로 한다.
 
-### [tip] 마크다운 파일 생성시, jekyll-compose 를 이용해 생성하기
+### [tip] jekyll-compose를 이용하기
 
-- 현재 repo를 다운로드 한후 `$ bundle`명령어를 날리면 jekyll-compose 설치된다.
+- `gem install jekyll-compose`
 - 다음 명령어로 `_posts/2016-11-23-my-new-post.md ` 가 생성됨
 ```
 $ bundle exec jekyll post "My New Post"
@@ -30,6 +30,8 @@ $ bundle exec jekyll post "My New Post"
 
 위의 gem으로 파일을 생성하면, 다음과 같은 기본 레이아웃으로 마크다운이 생성된다.
 
+### 기본 레이아웃
+
 ```
 ---
 layout: post
@@ -37,8 +39,10 @@ title: how to write a post
 ---
 ```
 
-date와 author를 추가합니다.
-author는 개인 github id를 작성합니다.
+### date와 author 추가
+
+- date와 author를 추가합니다.
+- author는 개인 github id를 작성합니다.
 
 ```
 ---
@@ -49,7 +53,7 @@ author: dalzony
 ---
 ```
 
-title은 한글로 바꿔도 좋습니다.
+### title변경 : 한글로 바꿔도 좋습니다.
 
 ```
 ---
@@ -60,8 +64,10 @@ author: dalzony
 ---
 ```
 
-깃헙 마크다운을 따릅니다, 변경사항이 필요하면 요청해주세요.
-계층의 시작은 `##`입니다.
+### 기타
+
+- 깃헙 마크다운을 따릅니다, 변경사항이 필요하면 요청해주세요.
+- 계층의 시작은 `##`입니다.
 
 ## 로컬에서 실행해보기
 
@@ -71,7 +77,7 @@ $ jekyll s
 
 - 미리 볼 수 있습니다.
 
-## publish
+## publish 하는 법
 
 ### 커밋 & 푸시
 
