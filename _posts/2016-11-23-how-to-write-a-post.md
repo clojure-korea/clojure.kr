@@ -7,7 +7,7 @@ author: dalzony
 
 ## github
 
-- https://github.com/clojure-korea/clojure.kr fork!
+-  [clojure-korea github] fork!
 
 ## 마크다운 파일 생성하기
 
@@ -82,3 +82,6 @@ $ jekyll s
 
 - pull-req를 날려주세요.
 - author에 관한 기타 문의는 clojure.kr@gmail.com로 해주세요.
+
+
+[clojure-korea github]: https://github.com/clojure-korea/clojure.kr
