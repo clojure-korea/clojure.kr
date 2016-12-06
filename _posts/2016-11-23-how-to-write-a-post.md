@@ -16,9 +16,14 @@ author: dalzony
   - 예:  `_posts/2016-11-23-how-to-write-a-post.md`
 - 파일 명은 반드시 영어로 한다.
 
-## 마크다운 작성시에
+## 마크다운 룰
 
-위의 gem으로 파일을 생성하면, 다음과 같은 기본 레이아웃으로 마크다운이 생성된다.
+다음 내용은 반드시 넣어야합니다.
+
+- layout
+- title
+- date
+- author
 
 ### 기본 레이아웃
 
@@ -32,18 +37,19 @@ title: how to write a post
 ### date와 author 추가
 
 - date와 author를 추가합니다.
-- author는 개인 github id를 작성합니다.
+- author는 개인 github id로 작성합니다.
+- 참고: title을 한글로 바꿔도 좋습니다.
 
 ```
 ---
 layout: post
-title: how to write a
+title: 포스팅 하는 법
 date: 2016-11-22 15:09:10 +0900
 author: dalzony
 ---
 ```
 
-### title변경 : 한글로 바꿔도 좋습니다.
+### 최종 모습 예
 
 ```
 ---
