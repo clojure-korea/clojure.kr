@@ -24,22 +24,22 @@
         color: $accent-color;
     }
     h1 {
-        font-size: 35px;
-    }
-    h2 {
         font-size: 32px;
     }
+    h2 {
+        font-size: 30px;
+    }
     h3 {
-        font-size: 29px;
+        font-size: 22px;
     }
     h4 {
-        font-size: 26px;
+        font-size: 20px;
     }
     h5 {
-        font-size: 23px;
+        font-size: 18px;
     }
     h6 {
-        font-size: 20px;
+        font-size: 16px;
     }
     p {
         font-size: 16px;
@@ -102,9 +102,6 @@
     }
     ul, ol {
         padding: $base-spacing/5 $base-spacing;
-    }
-    ul {
-        list-style-type: circle;
     }
     ol {
         list-style-type: decimal;
