@@ -1,10 +1,10 @@
 // Font stacks
-$font-stack-one: 'apple SD gothic neo', '돋움', 'dotum', 'sans-serif';
-$font-stack-three: 'apple SD gothic neo', '돋움', 'dotum', 'sans-serif';
+$font-stack-one: "Avenir", "Lato", "애플 SD 산돌고딕 Neo", "Apple SD Gothic Neo", "나눔바른고딕", "NanumBarunGothic", "나눔고딕", "NanumGothic", "맑은 고딕", "Malgun Gothic", "돋움", "dotum", "AppleGothic", "sans-serif";
+$font-stack-three: "Avenir", "Lato", "애플 SD 산돌고딕 Neo", "Apple SD Gothic Neo", "나눔바른고딕", "NanumBarunGothic", "나눔고딕", "NanumGothic", "맑은 고딕", "Malgun Gothic", "돋움", "dotum", "AppleGothic", "sans-serif";
 $code-font: 'Monaco';
 
 // Spacing and Sizes
-$base-font-size: 1em;
+$base-font-size: 16px;
 $base-line-height: 1.5;
 $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
