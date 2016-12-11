@@ -84,6 +84,6 @@ $ jekyll s
 
 - pull-req를 날려주세요.
 - author에 관한 기타 문의는 clojure.kr@gmail.com로 해주세요.
-
+  - 또는 clojure-korea.slack.com의 `#clojurekr` 채널
 
 [clojure-korea github]: https://github.com/clojure-korea/clojure.kr
