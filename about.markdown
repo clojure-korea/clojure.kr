@@ -11,6 +11,6 @@ permalink: /about
 
 
 [clojure-korea 페이스북 그룹](https://www.facebook.com/groups/defnclojure/)  
-[ClojureKoreaBridge 페이스북 그룹](https://www.facebook.com/groups/clojurebridgekr/)  
-[Slack-clojure-korea](http://clojure-korea.slack.com/)
-[초대링크](https://clojure-korea-invitation.herokuapp.com/)
+[clojure-bridge-seoul 페이스북 그룹](https://www.facebook.com/groups/clojurebridgekr/)  
+[slack-clojure-korea](http://clojure-korea.slack.com/)
+[초대 링크](https://clojure-korea-invitation.herokuapp.com/)
