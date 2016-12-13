@@ -32,10 +32,10 @@
         <link rel="author" href="https://twitter.com/{{ site.twitter_username }}">
     {% endif %}
     <!-- Facebook Open Graph -->
-    <!--meta name="og:description" content="{{ desc }}"-->
     {% if page.title %}
       <meta name="og:title" content="{{ page.title }}">
     {% else %}
+      <meta name="og:description" content="{{ desc }}">
       <meta name="og:title" content="{{ site.title }}">
       {% if site.og_image %}
           <meta name="og:image" content="{{ site.og_image }}">
