@@ -138,5 +138,5 @@ as well as the consequences for unacceptable behavior.
 [berlincodeofconduct.org]: http://berlincodeofconduct.org/
 [quil]: http://quil.info/
 [nightcode]: https://sekao.net/nightcode/
-[2017-클로저-브릿지-서울]: https://docs.google.com/forms/d/1VZALCtDbH3w9KNvzVrYN96L8Wc6uuerholQ8iOM-JUE/edit
+[2017-클로저-브릿지-서울]: https://goo.gl/forms/JntLHro0XGw1SypO2
 [dalzony-blog 영어버전포스팅]: http://dalzony.github.io/2016/12/clojure-bridge-berlin
