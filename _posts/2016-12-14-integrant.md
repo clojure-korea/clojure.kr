@@ -23,7 +23,7 @@ author: eunmin
 
 ## Component
 
-`Component`는 개념은 좋았지만 Record와 같은 자료형을 사용해서 리소스를 만들고 `start`/`stop`과 같은
+`Component`는 Record와 같은 자료형을 사용해서 리소스를 만들고 `start`/`stop`과 같은
 프로토콜로 구현해줘야 합니다. 그래서 `Component`를 이용해서 애플리케이션을 작성하다 보면 애플리케이션 전체가
 `Component`에 의존적이게 됩니다. 또 리소스를 사용하는 함수에 인자로 리소스를 항상 받아야 하므로 `Var`로
 리소스를 정의해 놓고 사용하는 것처럼 편하지 않습니다.
