@@ -12,8 +12,8 @@ email: clojure.kr@gmail.com
 author: clojure-korea
 # This description will show up in google search results
 # (for index page) etc.
-description: > # this means to ignore newlines until "baseurl:"
-  클로저 코리아에서 운영하는 블로그 입니다.</br>
+#description: > # this means to ignore newlines until "baseurl:"
+#  클로저 코리아에서 운영하는 블로그 입니다.</br>
 
 # This will what will show against &copy; in the footer
 copyright: clojure-korea
@@ -44,7 +44,7 @@ github_username: clojure-korea
 facebook_id: groups/defnclojure
 
 favicon: true
-favicon_location: "images/favicon.ico"
+favicon_location: "http://clojure.org/images/clojure-logo-icon-32.png"
 
 profile_picture: images/clojure-logo.png
 no-profile: images/no-profile.gif
