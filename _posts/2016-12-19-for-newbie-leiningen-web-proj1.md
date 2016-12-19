@@ -9,7 +9,8 @@ author: dayoungle
 ## Luminus web project 처음부터 만들어보기 (1)
 
 ### 목차
-```
+
+---
 - 신규 프로젝트를 Luminus를 이용해서 생성해보기 
 - Luminus 기본 프로젝트 구조 
 	- 프로젝트의 root directory에서 프로젝트를 실행시켜본다
@@ -18,7 +19,10 @@ author: dayoungle
 	- src/clj/sample-proj/core.clj
 	- src/clj/sample-proj/handler.clj
 	- src/clj/sample-proj/routes/home-routes.clj
-```
+
+---
+
+
 ### 신규 프로젝트를 Luminus를 이용해서 생성해보기 
 
 ```
@@ -92,11 +96,12 @@ lein new luminus sample-proj
 
 - 프로젝트 생성 후 자동 생성되었으나 프로젝트 계획 상 불필요한 파일은 삭제함
 
-```
+---
 - Captstanfile
 - Dockerfile
 - Procfile
-```
+
+---
 
 #### 프로젝트의 root directory에서 프로젝트를 실행시켜본다 
 
@@ -106,7 +111,7 @@ lein new luminus sample-proj
 
 #### localhost:3000 에 접속했을 때 luminus welcome page가 나오면 프로젝트 기본 틀 완성!
 
-![leiningen_start](clojure.kr/assets/leiningen_start.png)
+![leiningen_start]({{site.baseurl}}/assets/leiningen_start.png)
 
 ---
 
