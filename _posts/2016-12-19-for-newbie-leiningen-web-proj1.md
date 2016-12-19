@@ -30,6 +30,10 @@ lein new luminus sample-proj
 ```
 참고: [http://www.luminusweb.net/](http://www.luminusweb.net/)
 
+
+---
+
+
 ### Luminus 기본 프로젝트의 구조
 
 ``` 
@@ -109,11 +113,17 @@ lein new luminus sample-proj
 ~/sample-proj $ lein run 
 ```
 
+---
+
+
 #### localhost:3000 에 접속했을 때 luminus welcome page가 나오면 프로젝트 기본 틀 완성!
 
 ![leiningen_start](/assets/leiningen_start.png)
 
+
+
 ---
+
 
 
 ### src 디렉토리에 생성된 파일들의 역할을 파악해본다
@@ -132,6 +142,9 @@ src 디렉토리 하위에는 소스코드를 관리한다. 프로젝트의 이�
 │               └── home.clj
 ```
 
+
+
+---
 
 
 #### src/clj/sample-proj/core.clj 
@@ -191,6 +204,9 @@ src 디렉토리 하위에는 소스코드를 관리한다. 프로젝트의 이�
 
 ```
 
+---
+
+
 #### src/clj/sample-proj/handler.clj 
 - application의 가장 기본이 되는 base routes를 정의한다. 
 - app-routes 를 정의하면서 compojure 의 routes 기능을 활용한다. (compojure의 개념에 대해서는 차후에 정리하는 것으로 한다)
@@ -225,6 +241,9 @@ src 디렉토리 하위에는 소스코드를 관리한다. 프로젝트의 이�
 (defn app [] (middleware/wrap-base #'app-routes))
 
 ```
+
+---
+
 
 #### src/clj/sample-proj/routes/home-routes.clj 
 - 위의 handler에서 등록한 route의 resource를 상술하도록 되어있다 
