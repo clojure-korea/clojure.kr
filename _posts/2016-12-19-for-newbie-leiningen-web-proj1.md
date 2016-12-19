@@ -188,6 +188,9 @@ src 디렉토리 하위에는 소스코드를 관리한다. 프로젝트의 이�
 
 #### src/clj/sample-proj/handler.clj 
 - application의 가장 기본이 되는 base routes를 정의한다. 
+- app-routes 를 정의하면서 compojure 의 routes 기능을 활용한다. (compojure의 개념에 대해서는 차후에 정리하는 것으로 한다)
+- app-routes에서 정의된 home-routes 에 정의된 api 주소들이 route로 등록이 된다.
+- routes 함수 내에 인자로 사용된 wrap-routes들은 인자로 추가한 middleware로 route를 싼다(wrap)는 의미이다. 
 
 ``` clojure 
 (ns sample-proj.handler
@@ -217,11 +220,6 @@ src 디렉토리 하위에는 소스코드를 관리한다. 프로젝트의 이�
 (defn app [] (middleware/wrap-base #'app-routes))
 
 ```
-
-- 위의 코드에서 app-routes 를 정의하면서 compojure 의 routes 기능을 활용한다. (compojure의 개념에 대해서는 차후에 정리하는 것으로 한다)
-- app-routes에서 정의된 home-routes 에 정의된 api 주소들이 route로 등록이 된다.
-- routes 함수 내에 인자로 사용된 wrap-routes들은 인자로 추가한 middleware로 route를 싼다(wrap)는 의미이다. 
-
 
 #### src/clj/sample-proj/routes/home-routes.clj 
 - 위의 handler에서 등록한 route의 resource를 상술하도록 되어있다 
