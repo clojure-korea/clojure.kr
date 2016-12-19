@@ -98,7 +98,7 @@ lein new luminus sample-proj
 
 ### localhost:3000 에 접속했을 때 luminus welcome page가 나오면 프로젝트 기본 틀 완성!
 
-> 캡쳐해둔 사진을 업로드해서 추가해본다 ..
+![leiningen_start](clojure.kr/assets/leiningen_start.png)
 
 ---
 
