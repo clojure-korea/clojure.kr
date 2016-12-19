@@ -111,7 +111,7 @@ lein new luminus sample-proj
 
 #### localhost:3000 에 접속했을 때 luminus welcome page가 나오면 프로젝트 기본 틀 완성!
 
-![leiningen_start]({{site.baseurl}}/assets/leiningen_start.png)
+![leiningen_start](/assets/leiningen_start.png)
 
 ---
 
