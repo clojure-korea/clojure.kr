@@ -1,6 +1,14 @@
-# Luminus web project 처음부터 만들어보기 (1)
+---
+layout: post
+title: Luminus web project 처음부터 만들어보기 (1)
+date:   2016-12-19 15:50:00 +0900
+author: dayoungle
+---
 
-## 목차
+
+## Luminus web project 처음부터 만들어보기 (1)
+
+### 목차
 ```
 - 신규 프로젝트를 Luminus를 이용해서 생성해보기 
 - Luminus 기본 프로젝트 구조 
@@ -11,14 +19,14 @@
 	- src/clj/sample-proj/handler.clj
 	- src/clj/sample-proj/routes/home-routes.clj
 ```
-## 신규 프로젝트를 Luminus를 이용해서 생성해보기 
+### 신규 프로젝트를 Luminus를 이용해서 생성해보기 
 
 ```
 lein new luminus sample-proj
 ```
 참고: [http://www.luminusweb.net/](http://www.luminusweb.net/)
 
-## Luminus 기본 프로젝트의 구조
+### Luminus 기본 프로젝트의 구조
 
 ``` 
 .
@@ -90,20 +98,20 @@ lein new luminus sample-proj
 - Procfile
 ```
 
-### 프로젝트의 root directory에서 프로젝트를 실행시켜본다 
+#### 프로젝트의 root directory에서 프로젝트를 실행시켜본다 
 
 ```
 ~/sample-proj $ lein run 
 ```
 
-### localhost:3000 에 접속했을 때 luminus welcome page가 나오면 프로젝트 기본 틀 완성!
+#### localhost:3000 에 접속했을 때 luminus welcome page가 나오면 프로젝트 기본 틀 완성!
 
 ![leiningen_start](clojure.kr/assets/leiningen_start.png)
 
 ---
 
 
-## src 디렉토리에 생성된 파일들의 역할을 파악해본다
+### src 디렉토리에 생성된 파일들의 역할을 파악해본다
 src 디렉토리 하위에는 소스코드를 관리한다. 프로젝트의 이름이 root namespace로 결정된다. 
 
 ```
@@ -121,7 +129,7 @@ src 디렉토리 하위에는 소스코드를 관리한다. 프로젝트의 이�
 
 
 
-### src/clj/sample-proj/core.clj 
+#### src/clj/sample-proj/core.clj 
 - 메인함수가 포함된 application의 entry point라고 생각하면 된다 
 - 서버의 시작과 중단을 관리하는 로직이 들어있고  mount를 이용하여 시작,중단 시 동작해야 할 기능이 설정되어있다.
 
@@ -178,7 +186,7 @@ src 디렉토리 하위에는 소스코드를 관리한다. 프로젝트의 이�
 
 ```
 
-### src/clj/sample-proj/handler.clj 
+#### src/clj/sample-proj/handler.clj 
 - application의 가장 기본이 되는 base routes를 정의한다. 
 
 ``` clojure 
@@ -215,7 +223,7 @@ src 디렉토리 하위에는 소스코드를 관리한다. 프로젝트의 이�
 - routes 함수 내에 인자로 사용된 wrap-routes들은 인자로 추가한 middleware로 route를 싼다(wrap)는 의미이다. 
 
 
-### src/clj/sample-proj/routes/home-routes.clj 
+#### src/clj/sample-proj/routes/home-routes.clj 
 - 위의 handler에서 등록한 route의 resource를 상술하도록 되어있다 
 - 이때 compojure 의 defroutes를 사용해서 route를 손쉽게 정의할 수 있도록 샘플이 나와있다. 
 	- 앞서 보았던 handler에서 routes로 등록된 routes의 이름 부분과 defroutes로 선언된 이름이 같아야 한다. 
