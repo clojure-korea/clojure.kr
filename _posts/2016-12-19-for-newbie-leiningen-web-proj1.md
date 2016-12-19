@@ -1,12 +1,10 @@
 ---
 layout: post
-title: Luminus web project 처음부터 만들어보기 (1)
+title: [따라하기] Luminus project 만들기
 date:   2016-12-19 15:50:00 +0900
 author: dayoungle
 ---
 
-
-## Luminus web project 처음부터 만들어보기 (1)
 
 ### 목차
 
