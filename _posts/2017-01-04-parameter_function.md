@@ -2,7 +2,7 @@
 layout: post
 title: "[아장아장 클로져] 함수를 다른 함수의 인자로 넘겨보자" 
 date:   2017-01-04 16:30:00 +0900 
-author: dayoungle
+author: dayoungles
 ---
 
 아래와 같이 try-catch문이 중복되는 함수 여러 개를 만들었다. 
