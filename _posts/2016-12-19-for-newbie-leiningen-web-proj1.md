@@ -2,7 +2,7 @@
 layout: post
 title: "[따라하기] Luminus project 만들기" 
 date:   2016-12-19 15:50:00 +0900 
-author: dayoungle
+author: dayoungles
 ---
 
 
