@@ -7,6 +7,8 @@ author: eunmin
 
 ## HTTP 요청 처리하기
 
+이 글은 아라크네 공식 문서에 있는 [Handling HTTP Requests] (http://docs.arachne-framework.org/tutorials/http-requests/)를 정리한 버전입니다.
+
 이번 장은 [프로젝트 만들기](http://clojure.kr/arachne-tutorials-creating-a-project)에서
 만든 예제 프로젝트에 Pedestal 모듈을 추가해서 진행합니다.
 이번에 설명할 내용은 HTTP 요청을 처리하는 함수를 만들고 서버를 구성해서 실행하는 방법에 대해 알아보겠습니다.

@@ -7,6 +7,8 @@ author: eunmin
 
 ## 프로젝트 만들기
 
+이 글은 아라크네 공식 문서에 있는 [Createing a Project] (http://docs.arachne-framework.org/tutorials/creating-a-project/)를 정리한 버전입니다.
+
 ### 프로젝트 만들기
 
 아래와 같이 leiningen 프로젝트를 생성합니다.
