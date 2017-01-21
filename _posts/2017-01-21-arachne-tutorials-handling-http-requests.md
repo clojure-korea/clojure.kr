@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[아라크네 튜토리얼] HTTP 요청 처리하기"
+title: "[아라크네 튜토리얼] 2. HTTP 요청 처리하기"
 date:   2017-01-21 16:00:00 +0900
 author: eunmin
 ---
