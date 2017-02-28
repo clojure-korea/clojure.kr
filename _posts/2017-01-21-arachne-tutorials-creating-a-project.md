@@ -166,7 +166,7 @@ REPL을 열고 아래 두 네임스페이스를 `require` 해줍니다.
 `arachne.run` 네임스페이스를 `:main` 키에 지정해주고 실행하면 됩니다.
 
 ```
-:main arachne.core
+:main arachne.run
 ```
 
 실행 할때는 `lein run`에 인자 두개를 넣어 실행합니다. 첫번째는 어플리케이션 이름이고 두번째는 실행할 런타임 이름입니다.
