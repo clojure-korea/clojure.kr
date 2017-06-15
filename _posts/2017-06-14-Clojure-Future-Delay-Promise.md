@@ -6,11 +6,11 @@ author: storyzero
 ---
 
 동시성 코드를 읽기 쉽게, 안전하게 작성하기란 어려운 일입니다.
-스레드를 직접 다루는 것을 대신해 이를 추상화한 Futures, Delays, 그리고 Promises 을 사용하는 법을 살펴보겠습니다.
+스레드를 직접 다루는 것을 대신해 이를 추상화한 Future, Delay, 그리고 Promise 을 사용하는 법을 살펴보겠습니다.
 
 ### Future
 
-Future 는 작업 정의하고 다른 스레드에 작업 실행을 위임시킵니다. 결과를 바로 응답받지 않아도 된다면 Futures 를 사용할 수 있습니다. future 매크로를 사용해 Future 를 생성할 수 있습니다.
+Future 는 작업 정의하고 다른 스레드에 작업 실행을 위임시킵니다. 결과를 바로 응답받지 않아도 된다면 Future 를 사용할 수 있습니다. future 매크로를 사용해 Future 를 생성할 수 있습니다.
 
 ```clojure
 user=> (def result (future (apply + (range 100000000))))
