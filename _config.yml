@@ -51,7 +51,7 @@ profile_picture: images/clojure-logo.png
 no-profile: images/no-profile.gif
 paginate: 5
 paginate_path: "/page/:num"
-tracking_id: UA-69243698-7 # GA Tracking ID
+tracking_id: UA-101407055-1 # GA Tracking ID
 
 # Social Stuff | open graph and twitter cards
 og_image: "images/clojurekr.png" # This will show in facebook thumbnails
